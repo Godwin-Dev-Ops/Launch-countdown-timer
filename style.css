@@ -106,8 +106,13 @@ body {
 
 @media (max-width: 500px) {
   .container {
-      min-height: auto
+    max-height: auto;
+    padding: 0 20px;
   }
+}
+
+.container h1 {
+  text-align: center;
 }
 
 @media (min-width: 1440px) {
